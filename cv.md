@@ -1,9 +1,11 @@
-## Junior Frontend Developer
+## Junior Frontend Developer  
+<img src="https://sun9-50.userapi.com/SzrrO9kcowfpHNjhGQBwbSz4kD2Yeee9-xxx6w/NlMK3Ms4BYY.jpg" alt="photo" width="150"/>  
 
-1. First Name, Last Name    
+1. First Name, Last Name                             
 Okulko Maksim
 
 2. Contact Info:
+
 - mobile phone: +37544 798 96 72
 - e-mail: maxim_okulko@mail.ru
 - Skype: maxim_okulko@mail.ru
@@ -32,4 +34,5 @@ Okulko Maksim
   [source](https://drive.google.com/file/d/1WWuyJB6F-DtrdwNqdlGF4UbyO7s03ny4/view?usp=sharing)
 
 8.English courses. Underground Language Club 2019.
+
 
