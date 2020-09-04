@@ -4,6 +4,7 @@
 Okulko Maksim
 
 2. Contact Info:
+
 - mobile phone: +37544 798 96 72
 - e-mail: maxim_okulko@mail.ru
 - Skype: maxim_okulko@mail.ru
