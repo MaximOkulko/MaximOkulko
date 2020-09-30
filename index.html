@@ -10,14 +10,17 @@
 </head>
 
 <body>
-
-    <header class="header">
-        <div class="header-wrapper">
+    <header class="background-header">
+        <div class="header">
             <div class="header-content">
                 <a class="header-logo-a" href="#">
                     <h1 class="header-logo">SINGOLO</h1>
                 </a>
-                <nav>
+                <nav class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
                     <ul class="header-navigation">
                         <li class="navigation-item"><a class="navigation-item-active__link" href="#">HOME</a></li>
                         <li class="navigation-item"><a class="navigation-item__link" href="#">SERVICES</a></li>
@@ -30,19 +33,22 @@
         </div>
     </header>
 
-    <div class="wrap">
-        <div class="slider-wrapper">
+    <div class="background-slider">
+        <div class="wrap">
             <div class="slider-content">
                 <a class="slider__control slider__control_left" href="#" role="button"></a>
-                <div class="vertical-phone"><img src="images/png/phone-vertical.png" alt="phone-vertical"></div>
-                <div class="horizontal-phone"><img src="images/png/phone-horizontal.png" alt="phone-horizontal"></div>
+                <div class="vertical"><img class="vertical-phone" src="images/png/phone-vertical.png"
+                        alt="phone-vertical">
+                </div>
+                <div class="horizontal"><img class="horizontal-phone" src="images/png/phone-horizontal.png"
+                        alt="phone-horizontal"></div>
                 <a class="slider__control slider__control_right" href="#" role="button"></a>
             </div>
         </div>
     </div>
 
-    <section class="services">
-        <div class="wrapper">
+    <section class="background-services">
+        <div class="services">
             <div class="services-content">
                 <h2>Our Services</h2>
                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus,
@@ -100,8 +106,8 @@
         </div>
     </section>
 
-    <section class="portfolio">
-        <div class="wrapper">
+    <section class="background-portfolio">
+        <div class="portfolio">
             <div class="portfolio-content">
                 <h2 class="portfolio__title">Portfolio</h2>
                 <p class="portfolio__description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
@@ -130,17 +136,17 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="wrapper">
+    <footer class="background-footer">
+        <div class="footer">
             <div class="footer-content">
                 <div class="copyright">
                     <span>© Copyright 2013</span>
                 </div>
                 <ul class="footer-buttons">
-                    <li class="social-buttons__item icon-fb"><a href="#"></a></li>
-                    <li class="social-buttons__item icon-google"><a href="#"></a></li>
-                    <li class="social-buttons__item icon-twitter"><a href="#"></a></li>
-                    <li class="social-buttons__item icon-linkedin"><a href="#"></a></li>
+                    <li class="social-buttons__item"><a class="icon-fb" href="#"></a></li>
+                    <li class="social-buttons__item"><a class="icon-google" href="#"></a></li>
+                    <li class="social-buttons__item"><a class="icon-twitter" href="#"></a></li>
+                    <li class="social-buttons__item"><a class="icon-linkedin" href="#"></a></li>
                 </ul>
             </div>
         </div>
