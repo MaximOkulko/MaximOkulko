@@ -1,1 +1,1 @@
-https://your-github-account.github.io/rsschool-cv/cv
+The link to [CV](https://maximokulko.github.io/rsschool-cv/cv)
