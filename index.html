@@ -1,0 +1,60 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Variables and JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="controls">
+            <h1 class="heading">Фотофильтры</h1>
+
+            <label>Размер фото:
+                <input type="range" name="spacing" min="20" max="50" value="50" data-sizing="%">
+            </label>
+
+            <label>Прозрачность:
+                <input type="range" name="opacity" min="0" max="100" value="100" data-sizing="%">
+            </label>
+
+            <label>Насыщенность:
+                <input type="range" name="saturate" min="0" max="100" value="100" data-sizing="%">
+            </label>
+
+            <label>Яркость:
+                <input type="range" name="brightness" min="0" max="100" value="100" data-sizing="%">
+            </label>
+
+            <label>Размытие:
+                <input type="range" name="blur" min="0" max="6" value="0" data-sizing="px">
+            </label>
+
+            <label>Инверсия:
+                <input type="range" name="invert" min="0" max="100" value="0" data-sizing="%">
+            </label>
+
+            <label>Сепия:
+                <input type="range" name="sepia" min="0" max="100" value="0" data-sizing="%">
+            </label>
+
+            <label>Оттенок:
+                <input type="range" name="hue-rotate" min="0" max="360" value="0" data-sizing="deg">
+            </label>
+
+            <label>Ч/Б:
+                <input type="range" name="grayscale" min="0" max="100" value="0" data-sizing="%">
+            </label>
+        </div>
+
+        <div class="image">
+            <img src="img/liza.jpg" alt="liza">
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
