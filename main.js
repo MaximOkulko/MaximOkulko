@@ -1,7 +1,8 @@
 const holes = document.querySelectorAll(".hole");
-const scoreBoard = document.querySelector(".score");
 const kenny = document.querySelectorAll(".kenny");
-const audio = document.querySelector("audio");
+const scoreBoard = document.getElementById("score");
+const audio = document.getElementById("audio");
+const buttonStart = document.getElementById("buttonStart");
 let lastHole;
 let timeUp = false;
 let score = 0;
@@ -23,12 +24,14 @@ function changeHole(holes) {
 }
 
 function jumpKenny() {
-  const time = changeTime(200, 1000);
+  const time = changeTime(500, 1500);
   const hole = changeHole(holes);
   hole.classList.add("up");
   setTimeout(() => {
     hole.classList.remove("up");
-    if (timeUp === false) jumpKenny();
+    if (!timeUp) {
+      jumpKenny();
+    }
   }, time);
 }
 
@@ -40,7 +43,7 @@ function startGame() {
   setTimeout(() => (timeUp = true), 15000);
 }
 
-function shot(e) {
+function makeShot(e) {
   audio.currentTime = 0;
   audio.play();
   score++;
@@ -48,4 +51,5 @@ function shot(e) {
   scoreBoard.textContent = score;
 }
 
-kenny.forEach((kenny) => kenny.addEventListener("click", shot));
+buttonStart.addEventListener("click", startGame);
+kenny.forEach((kenny) => kenny.addEventListener("click", makeShot));
