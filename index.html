@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Keyboard </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <textarea id="keyboard-input"></textarea>
+    <article class="keyboard keyboard_lowercase ">
+        <section class="keyboard__keys-line">
+            <button type="button" class="keyboard__key key-layout">1</button>
+            <button type="button" class="keyboard__key key-layout">2</button>
+            <button type="button" class="keyboard__key key-layout">3</button>
+            <button type="button" class="keyboard__key key-layout">4</button>
+            <button type="button" class="keyboard__key key-layout">5</button>
+            <button type="button" class="keyboard__key key-layout">6</button>
+            <button type="button" class="keyboard__key key-layout">7</button>
+            <button type="button" class="keyboard__key key-layout">8</button>
+            <button type="button" class="keyboard__key key-layout">9</button>
+            <button type="button" class="keyboard__key key-layout">0</button>
+            <button type="button" class="keyboard__key keyboard__key-backspace" id="backspace">
+                <i class="material-icons">backspace</i>
+            </button>
+        </section>
+        <section class="keyboard_keys-line">
+            <button type="button" class="keyboard__key key-layout">q</button>
+            <button type="button" class="keyboard__key key-layout">w</button>
+            <button type="button" class="keyboard__key key-layout">e</button>
+            <button type="button" class="keyboard__key key-layout">r</button>
+            <button type="button" class="keyboard__key key-layout">t</button>
+            <button type="button" class="keyboard__key key-layout">y</button>
+            <button type="button" class="keyboard__key key-layout">u</button>
+            <button type="button" class="keyboard__key key-layout">i</button>
+            <button type="button" class="keyboard__key key-layout">o</button>
+            <button type="button" class="keyboard__key key-layout">p</button>
+        </section>
+        <section class="keyboard_keys-line">
+            <button type="button" class="keyboard__key keyboard__key-caps keyboard__key-activatable" id="capslock">
+                <i class="material-icons">keyboard_capslock</i>
+            </button>
+            <button type="button" class="keyboard__key key-layout">a</button>
+            <button type="button" class="keyboard__key key-layout">s</button>
+            <button type="button" class="keyboard__key key-layout">d</button>
+            <button type="button" class="keyboard__key key-layout">f</button>
+            <button type="button" class="keyboard__key key-layout">g</button>
+            <button type="button" class="keyboard__key key-layout">h</button>
+            <button type="button" class="keyboard__key key-layout">j</button>
+            <button type="button" class="keyboard__key key-layout">k</button>
+            <button type="button" class="keyboard__key key-layout">l</button>
+            <button type="button" class="keyboard__key keyboard_key-enter" id="return">
+                <i class="material-icons">keyboard_return</i>
+            </button>
+        </section>
+        <section class="keyboard_keys-line">
+            <button type="button" class="keyboard__key key-layout">z</button>
+            <button type="button" class="keyboard__key key-layout">x</button>
+            <button type="button" class="keyboard__key key-layout">c</button>
+            <button type="button" class="keyboard__key key-layout">v</button>
+            <button type="button" class="keyboard__key key-layout">b</button>
+            <button type="button" class="keyboard__key key-layout">n</button>
+            <button type="button" class="keyboard__key key-layout">m</button>
+            <button type="button" class="keyboard__key key-layout">,</button>
+            <button type="button" class="keyboard__key key-layout">.</button>
+            <button type="button" class="keyboard__key key-layout">?</button>
+        </section>
+        <button type="button" class="keyboard__key keyboard__key-space" id="space">
+            <i class="material-icons">space_bar</i>
+        </button>
+    </article>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
